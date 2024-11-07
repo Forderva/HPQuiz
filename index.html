@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry Potter Character Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Harry Potter Character Quiz</h1>
+
+        <div class="language-switch">
+            <img id="flag-en" src="/images/uk.png" alt="English Flag" class="flag">
+            <img id="flag-no" src="/images/norway.png" alt="Norwegian Flag" class="flag">
+        </div>
+
+        <div class="question-container">
+            <p class="question" id="question">What's your favorite way to spend your free time?</p>
+        </div>
+
+        <div id="answers">
+            <!-- Answer buttons will be added here by JavaScript -->
+        </div>
+
+        <div id="result-container" class="result" style="display: none;">
+            <h2 id="result-title">You are...</h2>
+            <img id="result-image" src="" alt="Character Image">
+            <p id="result-description">Character description goes here.</p>
+            <p id="result-motivation">Motivational text goes here.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
